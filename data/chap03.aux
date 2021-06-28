@@ -1,0 +1,192 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\citation{zhu2017unpaired}
+\citation{kim2017learning}
+\citation{zhu2017unpaired}
+\citation{zhu2017unpaired}
+\citation{kim2019u}
+\citation{wu2019transgaga}
+\citation{mo2018instagan}
+\FN@pp@footnotehinttrue 
+\@writefile{toc}{\contentsline {chapter}{\numberline {3}基于生成对抗网络的多目标形变图像翻译}{16}{chapter.3}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}引言}{16}{section.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-1}{\ignorespaces CycleGAN在有较大形状差异数据集上的翻译结果。图片来自文献\cite  {zhu2017unpaired}。\relax }}{16}{figure.caption.13}\protected@file@percent }
+\newlabel{fig:cyclegan_failure}{{3-1}{16}{CycleGAN在有较大形状差异数据集上的翻译结果。图片来自文献\cite {zhu2017unpaired}。\relax }{figure.caption.13}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}模型算法}{16}{section.3.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-2}{\ignorespaces 图像级和实例级的绵羊转长颈鹿结果。\relax }}{17}{figure.caption.14}\protected@file@percent }
+\newlabel{fig:mask}{{3-2}{17}{图像级和实例级的绵羊转长颈鹿结果。\relax }{figure.caption.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}算法框架}{17}{subsection.3.2.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-3}{\ignorespaces 多目标形变图像翻译模型示意图。\relax }}{17}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:multi_instance}{{3-3}{17}{多目标形变图像翻译模型示意图。\relax }{figure.caption.15}{}}
+\citation{zhu2017unpaired}
+\citation{yang2019controllable}
+\citation{li2020recurrent}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.1}形状翻译}{18}{subsubsection.3.2.1.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.2}纹理翻译}{18}{subsubsection.3.2.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.3}背景翻译}{18}{subsubsection.3.2.1.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.1.4}细化网络}{18}{subsubsection.3.2.1.4}\protected@file@percent }
+\citation{goodfellow2014generative}
+\citation{zhu2017unpaired}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-1}}{19}{equation.3.2.1}\protected@file@percent }
+\newlabel{eq:refine}{{3-1}{19}{细化网络}{equation.3.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}目标函数}{19}{subsection.3.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.1}形状翻译}{19}{subsubsection.3.2.2.1}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {3-2}}{19}{equation.3.2.2}\protected@file@percent }
+\newlabel{eq:shape_x}{{3-2}{19}{形状翻译}{equation.3.2.2}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-3}}{19}{equation.3.2.3}\protected@file@percent }
+\newlabel{eq:shape_y}{{3-3}{19}{形状翻译}{equation.3.2.3}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-4}}{19}{equation.3.2.4}\protected@file@percent }
+\newlabel{eq:shape_adv}{{3-4}{19}{形状翻译}{equation.3.2.4}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-5}}{19}{equation.3.2.5}\protected@file@percent }
+\newlabel{eq:shape_cyc}{{3-5}{19}{形状翻译}{equation.3.2.5}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-6}}{19}{equation.3.2.6}\protected@file@percent }
+\newlabel{eq:shape}{{3-6}{19}{形状翻译}{equation.3.2.6}{}}
+\citation{pathak2016context}
+\citation{isola2017image}
+\citation{shrivastava2017learning}
+\citation{wang2019underexposed}
+\citation{johnson2016perceptual}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.2}纹理翻译}{20}{subsubsection.3.2.2.2}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {3-7}}{20}{equation.3.2.7}\protected@file@percent }
+\newlabel{eq:texture_adv}{{3-7}{20}{纹理翻译}{equation.3.2.7}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-8}}{20}{equation.3.2.8}\protected@file@percent }
+\newlabel{eq:texture_rec}{{3-8}{20}{纹理翻译}{equation.3.2.8}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-9}}{20}{equation.3.2.9}\protected@file@percent }
+\newlabel{eq:texture_col}{{3-9}{20}{纹理翻译}{equation.3.2.9}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-10}}{20}{equation.3.2.10}\protected@file@percent }
+\newlabel{eq:texture}{{3-10}{20}{纹理翻译}{equation.3.2.10}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.2.2.3}细化网络}{20}{subsubsection.3.2.2.3}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {3-11}}{20}{equation.3.2.11}\protected@file@percent }
+\newlabel{eq:refine_rec}{{3-11}{20}{细化网络}{equation.3.2.11}{}}
+\citation{ronneberger2015u}
+\citation{wang2018high}
+\citation{lin2014microsoft}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-12}}{21}{equation.3.2.12}\protected@file@percent }
+\newlabel{eq:refine_per}{{3-12}{21}{细化网络}{equation.3.2.12}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-13}}{21}{equation.3.2.13}\protected@file@percent }
+\newlabel{eq:refine_adv}{{3-13}{21}{细化网络}{equation.3.2.13}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {3-14}}{21}{equation.3.2.14}\protected@file@percent }
+\newlabel{eq:refine_total}{{3-14}{21}{细化网络}{equation.3.2.14}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}模型部署}{21}{subsection.3.2.3}\protected@file@percent }
+\citation{lin2014microsoft}
+\citation{lin2014microsoft}
+\citation{zhu2017unpaired}
+\citation{kim2019u}
+\citation{lira2020ganhopper}
+\citation{mo2018instagan}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}实验}{22}{section.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}数据集设置}{22}{subsection.3.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-4}{\ignorespaces 绵羊$\leftrightarrow $长颈鹿数据集示意图。图片来自文献\cite  {lin2014microsoft}。\relax }}{22}{figure.caption.16}\protected@file@percent }
+\newlabel{fig:shp2gir_coco}{{3-4}{22}{绵羊$\leftrightarrow $长颈鹿数据集示意图。图片来自文献\cite {lin2014microsoft}。\relax }{figure.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}对比方法}{22}{subsection.3.3.2}\protected@file@percent }
+\citation{heusel2017gans}
+\citation{salimans2016improved}
+\citation{zhang2018perceptual}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}评价指标}{23}{subsection.3.3.3}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {3-15}}{23}{equation.3.3.15}\protected@file@percent }
+\newlabel{eq:FID}{{3-15}{23}{评价指标}{equation.3.3.15}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}实验结果与分析}{24}{subsection.3.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4.1}主观定性评价}{24}{subsubsection.3.3.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-5}{\ignorespaces 绵羊转长颈鹿的定性结果图。\relax }}{24}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:shp2gir}{{3-5}{24}{绵羊转长颈鹿的定性结果图。\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3-6}{\ignorespaces 长颈鹿转绵羊的定性结果图。\relax }}{25}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:gir2shp}{{3-6}{25}{长颈鹿转绵羊的定性结果图。\relax }{figure.caption.18}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.4.2}客观定量评价}{25}{subsubsection.3.3.4.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3-1}{\ignorespaces 绵羊转长颈鹿的定量结果。\relax }}{26}{table.caption.19}\protected@file@percent }
+\newlabel{tab:shp2gir}{{3-1}{26}{绵羊转长颈鹿的定量结果。\relax }{table.caption.19}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3-2}{\ignorespaces 长颈鹿转绵羊的定量结果。\relax }}{26}{table.caption.20}\protected@file@percent }
+\newlabel{tab:gir2shp}{{3-2}{26}{长颈鹿转绵羊的定量结果。\relax }{table.caption.20}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.5}消融实验结果与分析}{26}{subsection.3.3.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.5.1}形状翻译}{26}{subsubsection.3.3.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-7}{\ignorespaces 形状生成器采用不同结构的翻译结果示意图。\relax }}{27}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:ablation_study_shape}{{3-7}{27}{形状生成器采用不同结构的翻译结果示意图。\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {3.3.5.2}纹理翻译}{27}{subsubsection.3.3.5.2}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3-8}{\ignorespaces 纹理生成器采用不同结构，并分别加入颜色损失的翻译结果示意图。\relax }}{28}{figure.caption.22}\protected@file@percent }
+\newlabel{fig:ablation_study_texture}{{3-8}{28}{纹理生成器采用不同结构，并分别加入颜色损失的翻译结果示意图。\relax }{figure.caption.22}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}讨论}{28}{section.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.5}本章小结}{28}{section.3.5}\protected@file@percent }
+\FN@pp@footnotehinttrue 
+\@setckpt{data/chap03}{
+\setcounter{page}{30}
+\setcounter{equation}{15}
+\setcounter{enumi}{2}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{3}
+\setcounter{section}{5}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{8}
+\setcounter{table}{2}
+\setcounter{parentequation}{0}
+\setcounter{caption@flags}{0}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{AM@survey}{0}
+\setcounter{pp@next@reset}{1}
+\setcounter{@fnserial}{0}
+\setcounter{endNonectr}{29}
+\setcounter{currNonectr}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{NAT@ctr}{0}
+\setcounter{Item}{2}
+\setcounter{Hfootnote}{0}
+\setcounter{Hy@AnnotLevel}{0}
+\setcounter{bookmark@seq@number}{33}
+\setcounter{thu@bookmark}{1}
+\setcounter{translationbibi}{0}
+\setcounter{publicationsi}{0}
+\setcounter{achievementsi}{0}
+\setcounter{currproofctr}{0}
+\setcounter{endproofctr}{0}
+\setcounter{proof}{0}
+\setcounter{currassumptionctr}{0}
+\setcounter{endassumptionctr}{0}
+\setcounter{assumption}{0}
+\setcounter{currdefinitionctr}{0}
+\setcounter{enddefinitionctr}{0}
+\setcounter{definition}{0}
+\setcounter{currpropositionctr}{0}
+\setcounter{endpropositionctr}{0}
+\setcounter{proposition}{0}
+\setcounter{currlemmactr}{0}
+\setcounter{endlemmactr}{0}
+\setcounter{lemma}{0}
+\setcounter{currtheoremctr}{0}
+\setcounter{endtheoremctr}{0}
+\setcounter{theorem}{0}
+\setcounter{curraxiomctr}{0}
+\setcounter{endaxiomctr}{0}
+\setcounter{axiom}{0}
+\setcounter{currcorollaryctr}{0}
+\setcounter{endcorollaryctr}{0}
+\setcounter{corollary}{0}
+\setcounter{currexercisectr}{0}
+\setcounter{endexercisectr}{0}
+\setcounter{exercise}{0}
+\setcounter{currexamplectr}{0}
+\setcounter{endexamplectr}{0}
+\setcounter{example}{0}
+\setcounter{currremarkctr}{0}
+\setcounter{endremarkctr}{0}
+\setcounter{remark}{0}
+\setcounter{currproblemctr}{0}
+\setcounter{endproblemctr}{0}
+\setcounter{problem}{0}
+\setcounter{currconjecturectr}{0}
+\setcounter{endconjecturectr}{0}
+\setcounter{conjecture}{0}
+\setcounter{float@type}{4}
+\setcounter{nlinenum}{0}
+\setcounter{section@level}{0}
+}

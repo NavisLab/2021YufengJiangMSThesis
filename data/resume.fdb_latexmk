@@ -1,0 +1,14 @@
+# Fdb version 3
+["xdvipdfmx"] 0 "resume.xdv" "resume.pdf" "resume" 0
+  "resume.xdv" 0 -1 0 "xelatex"
+  (generated)
+  "resume.pdf"
+["xelatex"] 1615434838 "resume.tex" "resume.xdv" "resume" 1615434838
+  "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
+  "/usr/local/texlive/2020/texmf-var/web2c/xetex/xelatex.fmt" 1611471540 4769643 349c3c20e3dc4d800f274558017cb6b9 ""
+  "/usr/local/texlive/2020/texmf.cnf" 1586288231 577 d60164b4589a341208aff7a667fbbdcb ""
+  "resume.aux" 1615434802 2521 ffae0859f825b564902e9fb61d2e0e57 ""
+  "resume.tex" 1615434838 1985 f593ad8c45be4124e0547c2ecf7fb8a8 ""
+  (generated)
+  "resume.log"
+  "resume.xdv"

@@ -1,0 +1,509 @@
+\begin{thebibliography}{10}
+
+\bibitem{goodfellow2014generative}
+Goodfellow I, Pouget-Abadie J, Mirza M, et~al.
+\newblock Generative adversarial nets.
+\newblock  NIPS, 2014.
+\newblock  2672--2680
+\thudot
+
+\bibitem{isola2017image}
+Isola P, Zhu J~Y, Zhou T, et~al.
+\newblock Image-to-image translation with conditional adversarial networks.
+\newblock  CVPR, 2017.
+\newblock  1125--1134
+\thudot
+
+\bibitem{radford2015unsupervised}
+Radford A, Metz L, Chintala S.
+\newblock Unsupervised representation learning with deep convolutional
+  generative adversarial networks.
+\newblock arXiv preprint arXiv:1511.06434, 2015.
+\thudot
+
+\bibitem{arjovsky2017wasserstein}
+Arjovsky M, Chintala S, Bottou L.
+\newblock Wasserstein {GAN}.
+\newblock arXiv preprint arXiv:1701.07875, 2017.
+\thudot
+
+\bibitem{gulrajani2017improved}
+Gulrajani I, Ahmed F, Arjovsky M, et~al.
+\newblock Improved training of {W}asserstein {GAN}s.
+\newblock NIPS, 2017, 30:5767--5777
+\thudot
+
+\bibitem{mao2017least}
+Mao X, Li Q, Xie H, et~al.
+\newblock Least squares generative adversarial networks.
+\newblock  ICCV, 2017.
+\newblock  2794--2802
+\thudot
+
+\bibitem{li2020gan}
+Li M, Lin J, Ding Y, et~al.
+\newblock {GAN} compression: Efficient architectures for interactive
+  conditional {GAN}s.
+\newblock  CVPR, 2020.
+\newblock  5284--5294
+\thudot
+
+\bibitem{mirza2014conditional}
+Mirza M, Osindero S.
+\newblock Conditional generative adversarial nets.
+\newblock arXiv preprint arXiv:1411.1784, 2014.
+\thudot
+
+\bibitem{gu2020image}
+Gu J, Shen Y, Zhou B.
+\newblock Image processing using multi-code {GAN} prior.
+\newblock  CVPR, 2020.
+\newblock  3012--3021
+\thudot
+
+\bibitem{bau2020rewriting}
+Bau D, Liu S, Wang T, et~al.
+\newblock Rewriting a deep generative model.
+\newblock  ECCV, 2020.
+\newblock  351--369
+\thudot
+
+\bibitem{ledig2017photo}
+Ledig C, Theis L, Husz{\'a}r F, et~al.
+\newblock Photo-realistic single image super-resolution using a generative
+  adversarial network.
+\newblock  CVPR, 2017.
+\newblock  4681--4690
+\thudot
+
+\bibitem{pathak2016context}
+Pathak D, Krahenbuhl P, Donahue J, et~al.
+\newblock Context encoders: Feature learning by inpainting.
+\newblock  CVPR, 2016.
+\newblock  2536--2544
+\thudot
+
+\bibitem{vondrick2016generating}
+Vondrick C, Pirsiavash H, Torralba A.
+\newblock Generating videos with scene dynamics.
+\newblock arXiv preprint arXiv:1609.02612, 2016.
+\thudot
+
+\bibitem{wu2016learning}
+Wu J, Zhang C, Xue T, et~al.
+\newblock Learning a probabilistic latent space of object shapes via 3{D}
+  generative-adversarial modeling.
+\newblock arXiv preprint arXiv:1610.07584, 2016.
+\thudot
+
+\bibitem{wang2019discriminative}
+Wang C, Niu W, Jiang Y, et~al.
+\newblock Discriminative region proposal adversarial network for high-quality
+  image-to-image translation.
+\newblock IJCV, 2019. 1--20
+\thudot
+
+\bibitem{park2019semantic}
+Park T, Liu M~Y, Wang T~C, et~al.
+\newblock Semantic image synthesis with spatially-adaptive normalization.
+\newblock  CVPR, 2019.
+\newblock  2337--2346
+\thudot
+
+\bibitem{zhu2017unpaired}
+Zhu J~Y, Park T, Isola P, et~al.
+\newblock Unpaired image-to-image translation using cycle-consistent
+  adversarial networks.
+\newblock  ICCV, 2017.
+\newblock  2223--2232
+\thudot
+
+\bibitem{yi2017dualgan}
+Yi Z, Zhang H, Tan P, et~al.
+\newblock Dual{GAN}: Unsupervised dual learning for image-to-image translation.
+\newblock  ICCV, 2017.
+\newblock  2849--2857
+\thudot
+
+\bibitem{kim2017learning}
+Kim T, Cha M, Kim H, et~al.
+\newblock Learning to discover cross-domain relations with generative
+  adversarial networks.
+\newblock  ICML, 2017.
+\newblock  1857--1865
+\thudot
+
+\bibitem{liu2017unsupervised}
+Liu M~Y, Breuel T, Kautz J.
+\newblock Unsupervised image-to-image translation networks.
+\newblock NIPS, 2017, 30:700--708
+\thudot
+
+\bibitem{zhu2017toward}
+Zhu J~Y, Zhang R, Pathak D, et~al.
+\newblock Toward multimodal image-to-image translation.
+\newblock arXiv preprint arXiv:1711.11586, 2017.
+\thudot
+
+\bibitem{kingma2013auto}
+Kingma D~P, Welling M.
+\newblock Auto-encoding variational bayes.
+\newblock arXiv preprint arXiv:1312.6114, 2013.
+\thudot
+
+\bibitem{huang2018multimodal}
+Huang X, Liu M~Y, Belongie S, et~al.
+\newblock Multimodal unsupervised image-to-image translation.
+\newblock  ECCV, 2018.
+\newblock  172--189
+\thudot
+
+\bibitem{lee2018diverse}
+Lee H~Y, Tseng H~Y, Huang J~B, et~al.
+\newblock Diverse image-to-image translation via disentangled representations.
+\newblock  ECCV, 2018.
+\newblock  35--51
+\thudot
+
+\bibitem{mao2019mode}
+Mao Q, Lee H~Y, Tseng H~Y, et~al.
+\newblock Mode seeking generative adversarial networks for diverse image
+  synthesis.
+\newblock  CVPR, 2019.
+\newblock  1429--1437
+\thudot
+
+\bibitem{gokaslan2018improving}
+Gokaslan A, Ramanujan V, Ritchie D, et~al.
+\newblock Improving shape deformation in unsupervised image-to-image
+  translation.
+\newblock  ECCV, 2018.
+\newblock  649--665
+\thudot
+
+\bibitem{wu2019transgaga}
+Wu W, Cao K, Li C, et~al.
+\newblock Trans{G}a{G}a: Geometry-aware unsupervised image-to-image
+  translation.
+\newblock  CVPR, 2019.
+\newblock  8012--8021
+\thudot
+
+\bibitem{kim2019u}
+Kim J, Kim M, Kang H, et~al.
+\newblock U-{GAT}-{IT}: Unsupervised generative attentional networks with
+  adaptive layer-instance normalization for image-to-image translation.
+\newblock  ICLR, 2019
+\thudot
+
+\bibitem{mo2018instagan}
+Mo S, Cho M, Shin J.
+\newblock Insta{GAN}: Instance-aware image-to-image translation.
+\newblock  ICLR, 2018
+\thudot
+
+\bibitem{fabbri2018enhancing}
+Fabbri C, Islam M~J, Sattar J.
+\newblock Enhancing underwater imagery using generative adversarial networks.
+\newblock  ICRA, 2018.
+\newblock  7159--7165
+\thudot
+
+\bibitem{lu2019multi}
+Lu J, Li N, Zhang S, et~al.
+\newblock Multi-scale adversarial network for underwater image restoration.
+\newblock Optics \& Laser Technology, 2019, 110:105--113
+\thudot
+
+\bibitem{wang2004image}
+Wang Z, Bovik A~C, Sheikh H~R, et~al.
+\newblock Image quality assessment: From error visibility to structural
+  similarity.
+\newblock IEEE TIP, 2004, 13(4):600--612
+\thudot
+
+\bibitem{liu2019mlfcgan}
+Liu X, Gao Z, Chen B~M.
+\newblock {MLF}c{GAN}: Multilevel feature fusion-based conditional {GAN} for
+  underwater image color correction.
+\newblock IEEE GRSL, 2019, 17(9):1488--1492
+\thudot
+
+\bibitem{lecun1998gradient}
+LeCun Y, Bottou L, Bengio Y, et~al.
+\newblock Gradient-based learning applied to document recognition.
+\newblock Proceedings of the IEEE, 1998, 86(11):2278--2324
+\thudot
+
+\bibitem{krizhevsky2012imagenet}
+Krizhevsky A, Sutskever I, Hinton G~E.
+\newblock Image{N}et classification with deep convolutional neural networks.
+\newblock NIPS, 2012, 25:1097--1105
+\thudot
+
+\bibitem{ioffe2015batch}
+Ioffe S, Szegedy C.
+\newblock Batch normalization: Accelerating deep network training by reducing
+  internal covariate shift.
+\newblock  ICML, 2015.
+\newblock  448--456
+\thudot
+
+\bibitem{nair2010rectified}
+Nair V, Hinton G~E.
+\newblock Rectified linear units improve restricted boltzmann machines.
+\newblock  ICML, 2010
+\thudot
+
+\bibitem{xu2015empirical}
+Xu B, Wang N, Chen T, et~al.
+\newblock Empirical evaluation of rectified activations in convolutional
+  network.
+\newblock arXiv preprint arXiv:1505.00853, 2015.
+\thudot
+
+\bibitem{larsen2016autoencoding}
+Larsen A~B~L, S{\o}nderby S~K, Larochelle H, et~al.
+\newblock Autoencoding beyond pixels using a learned similarity metric.
+\newblock  ICML, 2016.
+\newblock  1558--1566
+\thudot
+
+\bibitem{shrivastava2017learning}
+Shrivastava A, Pfister T, Tuzel O, et~al.
+\newblock Learning from simulated and unsupervised images through adversarial
+  training.
+\newblock  CVPR, 2017.
+\newblock  2107--2116
+\thudot
+
+\bibitem{ronneberger2015u}
+Ronneberger O, Fischer P, Brox T.
+\newblock U-net: Convolutional networks for biomedical image segmentation.
+\newblock  MICCAI, 2015.
+\newblock  234--241
+\thudot
+
+\bibitem{chang2020domain}
+Chang H~Y, Wang Z, Chuang Y~Y.
+\newblock Domain-specific mappings for generative adversarial style transfer.
+\newblock  ECCV, 2020.
+\newblock  573--589
+\thudot
+
+\bibitem{yang2019controllable}
+Yang S, Wang Z, Wang Z, et~al.
+\newblock Controllable artistic text style transfer via shape-matching {GAN}.
+\newblock  ICCV, 2019.
+\newblock  4442--4451
+\thudot
+
+\bibitem{li2020recurrent}
+Li J, Wang N, Zhang L, et~al.
+\newblock Recurrent feature reasoning for image inpainting.
+\newblock  CVPR, 2020.
+\newblock  7760--7768
+\thudot
+
+\bibitem{wang2019underexposed}
+Wang R, Zhang Q, Fu C~W, et~al.
+\newblock Underexposed photo enhancement using deep illumination estimation.
+\newblock  CVPR, 2019.
+\newblock  6849--6857
+\thudot
+
+\bibitem{johnson2016perceptual}
+Johnson J, Alahi A, Fei-Fei L.
+\newblock Perceptual losses for real-time style transfer and super-resolution.
+\newblock  ECCV, 2016.
+\newblock  694--711
+\thudot
+
+\bibitem{wang2018high}
+Wang T~C, Liu M~Y, Zhu J~Y, et~al.
+\newblock High-resolution image synthesis and semantic manipulation with
+  conditional {GAN}s.
+\newblock  CVPR, 2018.
+\newblock  8798--8807
+\thudot
+
+\bibitem{lin2014microsoft}
+Lin T~Y, Maire M, Belongie S, et~al.
+\newblock Microsoft {COCO}: Common objects in context.
+\newblock  ECCV, 2014.
+\newblock  740--755
+\thudot
+
+\bibitem{lira2020ganhopper}
+Lira W, Merz J, Ritchie D, et~al.
+\newblock {GANH}opper: Multi-hop {GAN} for unsupervised image-to-image
+  translation.
+\newblock  ECCV, 2020.
+\newblock  363--379
+\thudot
+
+\bibitem{heusel2017gans}
+Heusel M, Ramsauer H, Unterthiner T, et~al.
+\newblock {GAN}s trained by a two time-scale update rule converge to a local
+  nash equilibrium.
+\newblock  NIPS, 2017.
+\newblock  6629--6640
+\thudot
+
+\bibitem{salimans2016improved}
+Salimans T, Goodfellow I, Zaremba W, et~al.
+\newblock Improved techniques for training {GAN}s.
+\newblock  NIPS, 2016.
+\newblock  2234--2242
+\thudot
+
+\bibitem{zhang2018perceptual}
+Zhang R, Isola P, Efros A~A, et~al.
+\newblock The unreasonable effectiveness of deep features as a perceptual
+  metric.
+\newblock  CVPR, 2018
+\thudot
+
+\bibitem{han2018review}
+Han M, Lyu Z, Qiu T, et~al.
+\newblock A review on intelligence dehazing and color restoration for
+  underwater images.
+\newblock IEEE Transactions on Systems, Man, and Cybernetics: Systems, 2018,
+  50(5):1820--1832
+\thudot
+
+\bibitem{jaffe1990computer}
+Jaffe J~S.
+\newblock Computer modeling and the design of optimal underwater imaging
+  systems.
+\newblock IEEE JOE, 1990, 15(2):101--111
+\thudot
+
+\bibitem{mcglamery1980computer}
+McGlamery B.
+\newblock A computer model for underwater camera systems.
+\newblock  Ocean Optics VI, 1980.
+\newblock  221--231
+\thudot
+
+\bibitem{schechner2004clear}
+Schechner Y~Y, Karpel N.
+\newblock Clear underwater vision.
+\newblock  CVPR, 2004.
+\newblock  I--I
+\thudot
+
+\bibitem{islam2019fast}
+Islam M~J, Xia Y, Sattar J.
+\newblock Fast underwater image enhancement for improved visual perception.
+\newblock IEEE RA-L, 2020, 5(2):3227--3234
+\thudot
+
+\bibitem{he2016deep}
+He K, Zhang X, Ren S, et~al.
+\newblock Deep residual learning for image recognition.
+\newblock  CVPR, 2016.
+\newblock  770--778
+\thudot
+
+\bibitem{huang2017densely}
+Huang G, Liu Z, Van Der~Maaten L, et~al.
+\newblock Densely connected convolutional networks.
+\newblock  CVPR, 2017.
+\newblock  4700--4708
+\thudot
+
+\bibitem{ulyanov2016instance}
+Ulyanov D, Vedaldi A, Lempitsky V.
+\newblock Instance normalization: The missing ingredient for fast stylization.
+\newblock arXiv preprint arXiv:1607.08022, 2016.
+\thudot
+
+\bibitem{hong2020distilling}
+Hong M, Xie Y, Li C, et~al.
+\newblock Distilling image dehazing with heterogeneous task imitation.
+\newblock  CVPR, 2020.
+\newblock  3462--3471
+\thudot
+
+\bibitem{wan2020bringing}
+Wan Z, Zhang B, Chen D, et~al.
+\newblock Bringing old photos back to life.
+\newblock  CVPR, 2020.
+\newblock  2747--2757
+\thudot
+
+\bibitem{kingma2014adam}
+Kingma D~P, Ba J.
+\newblock Adam: A method for stochastic optimization.
+\newblock  ICLR, 2014
+\thudot
+
+\bibitem{li2019underwater}
+Li C, Guo C, Ren W, et~al.
+\newblock An underwater image enhancement benchmark dataset and beyond.
+\newblock IEEE TIP, 2019, 29:4376--4389
+\thudot
+
+\bibitem{xiao2016sun}
+Xiao J, Ehinger K~A, Hays J, et~al.
+\newblock {SUN} database: Exploring a large collection of scene categories.
+\newblock IJCV, 2016, 119(1):3--22
+\thudot
+
+\bibitem{liu2019real}
+Liu R, Fan X, Zhu M, et~al.
+\newblock Real-world underwater enhancement: Challenges, benchmarks, and
+  solutions.
+\newblock arXiv preprint arXiv:1901.05320, 2019.
+\thudot
+
+\bibitem{li2020underwater}
+Li C, Anwar S, Porikli F.
+\newblock Underwater scene prior inspired deep underwater image and video
+  enhancement.
+\newblock Pattern Recognition, 2020, 98:107038
+\thudot
+
+\bibitem{silberman2012indoor}
+Silberman N, Hoiem D, Kohli P, et~al.
+\newblock Indoor segmentation and support inference from {RGBD} images.
+\newblock  ECCV, 2012.
+\newblock  746--760
+\thudot
+
+\bibitem{uplavikar2019all}
+Uplavikar P~M, Wu Z, Wang Z.
+\newblock All-in-one underwater image enhancement using domain-adversarial
+  learning.
+\newblock  CVPRW, 2019.
+\newblock  1--8
+\thudot
+
+\bibitem{islam2020simultaneous}
+Islam M~J, Luo P, Sattar J.
+\newblock Simultaneous enhancement and super-resolution of underwater imagery
+  for improved visual perception.
+\newblock arXiv preprint arXiv:2002.01155, 2020.
+\thudot
+
+\bibitem{ancuti2012enhancing}
+Ancuti C, Ancuti C~O, Haber T, et~al.
+\newblock Enhancing underwater images and videos by fusion.
+\newblock  CVPR, 2012.
+\newblock  81--88
+\thudot
+
+\bibitem{yang2015underwater}
+Yang M, Sowmya A.
+\newblock An underwater color image quality evaluation metric.
+\newblock IEEE TIP, 2015, 24(12):6062--6071
+\thudot
+
+\bibitem{panetta2015human}
+Panetta K, Gao C, Agaian S.
+\newblock Human-visual-system-inspired underwater image quality measures.
+\newblock IEEE JOE, 2015, 41(3):541--551
+\thudot
+
+\end{thebibliography}

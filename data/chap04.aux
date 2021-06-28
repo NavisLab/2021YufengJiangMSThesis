@@ -1,0 +1,259 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\FN@pp@footnotehinttrue 
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}基于生成对抗网络的水下图像翻译}{30}{chapter.4}\protected@file@percent }
+\@writefile{lof}{\addvspace {10.0pt}}
+\@writefile{lot}{\addvspace {10.0pt}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}引言}{30}{section.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}水的光学特性}{30}{section.4.2}\protected@file@percent }
+\citation{han2018review}
+\citation{han2018review}
+\citation{jaffe1990computer}
+\citation{mcglamery1980computer}
+\citation{schechner2004clear}
+\citation{fabbri2018enhancing}
+\citation{islam2019fast}
+\citation{fabbri2018enhancing}
+\citation{islam2019fast}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-1}{\ignorespaces 不同波长在水中的传播距离。图片来自文献\cite  {han2018review}。\relax }}{31}{figure.caption.23}\protected@file@percent }
+\newlabel{wavelength}{{4-1}{31}{不同波长在水中的传播距离。图片来自文献\cite {han2018review}。\relax }{figure.caption.23}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-2}{\ignorespaces (a)因水对光的选择吸收特性导致呈现蓝色调或绿色调的水下图像, (b)因水对光的散射特性而产生模糊和雾状效果的水下图像。图片来自文献\cite  {fabbri2018enhancing}\cite  {islam2019fast}。\relax }}{32}{figure.caption.24}\protected@file@percent }
+\newlabel{color}{{4-2}{32}{(a)因水对光的选择吸收特性导致呈现蓝色调或绿色调的水下图像, (b)因水对光的散射特性而产生模糊和雾状效果的水下图像。图片来自文献\cite {fabbri2018enhancing}\cite {islam2019fast}。\relax }{figure.caption.24}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.3}模型算法}{32}{section.4.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-3}{\ignorespaces DRIT和MUNIT在水下数据集上做图像翻译的效果。\relax }}{33}{figure.caption.25}\protected@file@percent }
+\newlabel{examples}{{4-3}{33}{DRIT和MUNIT在水下数据集上做图像翻译的效果。\relax }{figure.caption.25}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.1}算法框架}{33}{subsection.4.3.1}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-1}}{33}{equation.4.3.1}\protected@file@percent }
+\newlabel{eq:underwater_X2Y}{{4-1}{33}{算法框架}{equation.4.3.1}{}}
+\citation{he2016deep}
+\citation{huang2017densely}
+\citation{ulyanov2016instance}
+\citation{nair2010rectified}
+\citation{hong2020distilling}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-2}}{34}{equation.4.3.2}\protected@file@percent }
+\newlabel{eq:underwater_X2Y}{{4-2}{34}{算法框架}{equation.4.3.2}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-4}{\ignorespaces 水下图像清晰化模型示意图。\relax }}{34}{figure.caption.26}\protected@file@percent }
+\newlabel{architecture_underwater}{{4-4}{34}{水下图像清晰化模型示意图。\relax }{figure.caption.26}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.2}特征提取网络}{34}{subsection.4.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.3}映射网络}{34}{subsection.4.3.3}\protected@file@percent }
+\citation{lee2018diverse}
+\citation{wan2020bringing}
+\citation{zhu2017unpaired}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-5}{\ignorespaces 特征提取网络的网络结构示意图。\relax }}{35}{figure.caption.27}\protected@file@percent }
+\newlabel{FE}{{4-5}{35}{特征提取网络的网络结构示意图。\relax }{figure.caption.27}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-3}}{35}{equation.4.3.3}\protected@file@percent }
+\newlabel{eq:latent_GAN}{{4-3}{35}{映射网络}{equation.4.3.3}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.4}目标函数}{35}{subsection.4.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4.1}循环一致性损失}{35}{subsubsection.4.3.4.1}\protected@file@percent }
+\citation{lee2018diverse}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-4}}{36}{equation.4.3.4}\protected@file@percent }
+\newlabel{eq:cycle}{{4-4}{36}{循环一致性损失}{equation.4.3.4}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-5}}{36}{equation.4.3.5}\protected@file@percent }
+\newlabel{eq:cycle_consistenty}{{4-5}{36}{循环一致性损失}{equation.4.3.5}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4.2}感知损失}{36}{subsubsection.4.3.4.2}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-6}}{36}{equation.4.3.6}\protected@file@percent }
+\newlabel{eq:perceptual}{{4-6}{36}{感知损失}{equation.4.3.6}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4.3}域对抗损失}{36}{subsubsection.4.3.4.3}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-7}}{36}{equation.4.3.7}\protected@file@percent }
+\newlabel{eq:GAN_loss}{{4-7}{36}{域对抗损失}{equation.4.3.7}{}}
+\citation{lee2018diverse}
+\citation{nair2010rectified}
+\citation{ulyanov2016instance}
+\citation{wang2018high}
+\citation{kingma2014adam}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4.4}KL损失}{37}{subsubsection.4.3.4.4}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-8}}{37}{equation.4.3.8}\protected@file@percent }
+\newlabel{eq:KL}{{4-8}{37}{KL损失}{equation.4.3.8}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4.5}自重建损失}{37}{subsubsection.4.3.4.5}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-9}}{37}{equation.4.3.9}\protected@file@percent }
+\newlabel{eq:self_cyc}{{4-9}{37}{自重建损失}{equation.4.3.9}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.3.4.6}总损失函数}{37}{subsubsection.4.3.4.6}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-10}}{37}{equation.4.3.10}\protected@file@percent }
+\newlabel{eq:total}{{4-10}{37}{总损失函数}{equation.4.3.10}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3.5}模型部署}{37}{subsection.4.3.5}\protected@file@percent }
+\citation{islam2019fast}
+\citation{islam2019fast}
+\citation{islam2019fast}
+\citation{li2019underwater}
+\citation{xiao2016sun}
+\@writefile{toc}{\contentsline {section}{\numberline {4.4}实验}{38}{section.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.1}数据集设置}{38}{subsection.4.4.1}\protected@file@percent }
+\citation{liu2019real}
+\citation{li2020underwater}
+\citation{silberman2012indoor}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-6}{\ignorespaces (a)失真程度小、视觉效果好的水下图像, (b)失真程度大且视觉效果低的水下图像。图片来自文献\cite  {islam2019fast}。\relax }}{39}{figure.caption.28}\protected@file@percent }
+\newlabel{train}{{4-6}{39}{(a)失真程度小、视觉效果好的水下图像, (b)失真程度大且视觉效果低的水下图像。图片来自文献\cite {islam2019fast}。\relax }{figure.caption.28}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.2}对比方法}{39}{subsection.4.4.2}\protected@file@percent }
+\citation{uplavikar2019all}
+\citation{islam2020simultaneous}
+\citation{ancuti2012enhancing}
+\citation{li2019underwater}
+\citation{fabbri2018enhancing}
+\citation{zhu2017unpaired}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.1}水下图像增强方法}{40}{subsubsection.4.4.2.1}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-11}}{40}{equation.4.4.11}\protected@file@percent }
+\newlabel{eq:UIEB}{{4-11}{40}{水下图像增强方法}{equation.4.4.11}{}}
+\citation{mao2019mode}
+\citation{chang2020domain}
+\citation{wang2004image}
+\citation{yang2015underwater}
+\citation{panetta2015human}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.2.2}图像翻译方法}{41}{subsubsection.4.4.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.3}评价指标}{41}{subsection.4.4.3}\protected@file@percent }
+\@writefile{loe}{\contentsline {equation}{\numberline {4-12}}{41}{equation.4.4.12}\protected@file@percent }
+\newlabel{eq:example}{{4-12}{41}{评价指标}{equation.4.4.12}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-13}}{41}{equation.4.4.13}\protected@file@percent }
+\newlabel{eq:example}{{4-13}{41}{评价指标}{equation.4.4.13}{}}
+\citation{wang2004image}
+\citation{yang2015underwater}
+\citation{panetta2015human}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-14}}{42}{equation.4.4.14}\protected@file@percent }
+\newlabel{eq:example}{{4-14}{42}{评价指标}{equation.4.4.14}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-15}}{42}{equation.4.4.15}\protected@file@percent }
+\newlabel{eq:example}{{4-15}{42}{评价指标}{equation.4.4.15}{}}
+\@writefile{loe}{\contentsline {equation}{\numberline {4-16}}{43}{equation.4.4.16}\protected@file@percent }
+\newlabel{eq:example}{{4-16}{43}{评价指标}{equation.4.4.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.4}实验结果与分析}{43}{subsection.4.4.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4.1}主观定性评价}{43}{subsubsection.4.4.4.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-7}{\ignorespaces 对比方法和我们的方法在EUVP配对数据集上的测试结果。\relax }}{44}{figure.caption.29}\protected@file@percent }
+\newlabel{fig:euvp_paired}{{4-7}{44}{对比方法和我们的方法在EUVP配对数据集上的测试结果。\relax }{figure.caption.29}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-8}{\ignorespaces 对比方法和我们的方法在EUVP非配对数据集上的测试结果。\relax }}{45}{figure.caption.30}\protected@file@percent }
+\newlabel{fig:euvp_unpaired}{{4-8}{45}{对比方法和我们的方法在EUVP非配对数据集上的测试结果。\relax }{figure.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-9}{\ignorespaces 对比方法和我们的方法在UIEB数据集上的测试结果。\relax }}{46}{figure.caption.31}\protected@file@percent }
+\newlabel{fig:UIEB}{{4-9}{46}{对比方法和我们的方法在UIEB数据集上的测试结果。\relax }{figure.caption.31}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-10}{\ignorespaces 对比方法和我们的方法在SUN数据集上的测试结果。\relax }}{47}{figure.caption.32}\protected@file@percent }
+\newlabel{fig:SUN}{{4-10}{47}{对比方法和我们的方法在SUN数据集上的测试结果。\relax }{figure.caption.32}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.4.2}客观定量评价}{48}{subsubsection.4.4.4.2}\protected@file@percent }
+\citation{li2020underwater}
+\citation{uplavikar2019all}
+\citation{li2019underwater}
+\citation{islam2020simultaneous}
+\citation{fabbri2018enhancing}
+\citation{zhu2017unpaired}
+\citation{mao2019mode}
+\citation{chang2020domain}
+\citation{li2019underwater}
+\@writefile{lot}{\contentsline {table}{\numberline {4-1}{\ignorespaces 对比方法和我们的方法在配对EUVP数据集上的定量结果。\relax }}{49}{table.caption.33}\protected@file@percent }
+\newlabel{tab:euvp_paired}{{4-1}{49}{对比方法和我们的方法在配对EUVP数据集上的定量结果。\relax }{table.caption.33}{}}
+\citation{li2020underwater}
+\citation{uplavikar2019all}
+\citation{li2019underwater}
+\citation{islam2020simultaneous}
+\citation{fabbri2018enhancing}
+\citation{zhu2017unpaired}
+\citation{mao2019mode}
+\citation{chang2020domain}
+\citation{li2020underwater}
+\citation{uplavikar2019all}
+\citation{li2019underwater}
+\citation{islam2020simultaneous}
+\citation{fabbri2018enhancing}
+\citation{zhu2017unpaired}
+\citation{mao2019mode}
+\citation{chang2020domain}
+\citation{li2020underwater}
+\citation{uplavikar2019all}
+\citation{li2019underwater}
+\citation{islam2020simultaneous}
+\citation{fabbri2018enhancing}
+\citation{zhu2017unpaired}
+\citation{mao2019mode}
+\citation{chang2020domain}
+\@writefile{lot}{\contentsline {table}{\numberline {4-2}{\ignorespaces 对比方法和我们的方法在非配对EUVP数据集上的定量结果。\relax }}{50}{table.caption.34}\protected@file@percent }
+\newlabel{tab:euvp_unpaired}{{4-2}{50}{对比方法和我们的方法在非配对EUVP数据集上的定量结果。\relax }{table.caption.34}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4.5}消融实验结果与分析}{50}{subsection.4.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5.1}特征提取网络的有效性验证实验}{50}{subsubsection.4.4.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {4-3}{\ignorespaces 对比方法和我们的方法在UIEB数据集上的定量结果。\relax }}{51}{table.caption.35}\protected@file@percent }
+\newlabel{tab:UIEB}{{4-3}{51}{对比方法和我们的方法在UIEB数据集上的定量结果。\relax }{table.caption.35}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4-4}{\ignorespaces 对比方法和我们的方法在SUN数据集上的定量结果。\relax }}{51}{table.caption.36}\protected@file@percent }
+\newlabel{tab:sun}{{4-4}{51}{对比方法和我们的方法在SUN数据集上的定量结果。\relax }{table.caption.36}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4-11}{\ignorespaces 我们的方法和去掉FE或M网络的方法在RUIE数据集的UCCS子集上的视觉效果。\relax }}{52}{figure.caption.37}\protected@file@percent }
+\newlabel{fig:RUIE_UCCS}{{4-11}{52}{我们的方法和去掉FE或M网络的方法在RUIE数据集的UCCS子集上的视觉效果。\relax }{figure.caption.37}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.4.5.2}映射网络的有效性验证实验}{52}{subsubsection.4.4.5.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4.5}讨论}{52}{section.4.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4-12}{\ignorespaces 我们的方法和去掉FE或M网络的方法在RUIE数据集的UIQS子集上的视觉效果。\relax }}{53}{figure.caption.38}\protected@file@percent }
+\newlabel{fig:RUIE_UIQS}{{4-12}{53}{我们的方法和去掉FE或M网络的方法在RUIE数据集的UIQS子集上的视觉效果。\relax }{figure.caption.38}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.6}本章小结}{53}{section.4.6}\protected@file@percent }
+\FN@pp@footnotehinttrue 
+\@setckpt{data/chap04}{
+\setcounter{page}{55}
+\setcounter{equation}{16}
+\setcounter{enumi}{2}
+\setcounter{enumii}{0}
+\setcounter{enumiii}{0}
+\setcounter{enumiv}{0}
+\setcounter{footnote}{0}
+\setcounter{mpfootnote}{0}
+\setcounter{part}{0}
+\setcounter{chapter}{4}
+\setcounter{section}{6}
+\setcounter{subsection}{0}
+\setcounter{subsubsection}{0}
+\setcounter{paragraph}{0}
+\setcounter{subparagraph}{0}
+\setcounter{figure}{12}
+\setcounter{table}{4}
+\setcounter{parentequation}{0}
+\setcounter{caption@flags}{0}
+\setcounter{continuedfloat}{0}
+\setcounter{subfigure}{0}
+\setcounter{subtable}{0}
+\setcounter{AM@survey}{0}
+\setcounter{pp@next@reset}{1}
+\setcounter{@fnserial}{0}
+\setcounter{endNonectr}{45}
+\setcounter{currNonectr}{0}
+\setcounter{LT@tables}{0}
+\setcounter{LT@chunks}{0}
+\setcounter{NAT@ctr}{0}
+\setcounter{Item}{2}
+\setcounter{Hfootnote}{0}
+\setcounter{Hy@AnnotLevel}{0}
+\setcounter{bookmark@seq@number}{50}
+\setcounter{thu@bookmark}{1}
+\setcounter{translationbibi}{0}
+\setcounter{publicationsi}{0}
+\setcounter{achievementsi}{0}
+\setcounter{currproofctr}{0}
+\setcounter{endproofctr}{0}
+\setcounter{proof}{0}
+\setcounter{currassumptionctr}{0}
+\setcounter{endassumptionctr}{0}
+\setcounter{assumption}{0}
+\setcounter{currdefinitionctr}{0}
+\setcounter{enddefinitionctr}{0}
+\setcounter{definition}{0}
+\setcounter{currpropositionctr}{0}
+\setcounter{endpropositionctr}{0}
+\setcounter{proposition}{0}
+\setcounter{currlemmactr}{0}
+\setcounter{endlemmactr}{0}
+\setcounter{lemma}{0}
+\setcounter{currtheoremctr}{0}
+\setcounter{endtheoremctr}{0}
+\setcounter{theorem}{0}
+\setcounter{curraxiomctr}{0}
+\setcounter{endaxiomctr}{0}
+\setcounter{axiom}{0}
+\setcounter{currcorollaryctr}{0}
+\setcounter{endcorollaryctr}{0}
+\setcounter{corollary}{0}
+\setcounter{currexercisectr}{0}
+\setcounter{endexercisectr}{0}
+\setcounter{exercise}{0}
+\setcounter{currexamplectr}{0}
+\setcounter{endexamplectr}{0}
+\setcounter{example}{0}
+\setcounter{currremarkctr}{0}
+\setcounter{endremarkctr}{0}
+\setcounter{remark}{0}
+\setcounter{currproblemctr}{0}
+\setcounter{endproblemctr}{0}
+\setcounter{problem}{0}
+\setcounter{currconjecturectr}{0}
+\setcounter{endconjecturectr}{0}
+\setcounter{conjecture}{0}
+\setcounter{float@type}{4}
+\setcounter{nlinenum}{0}
+\setcounter{section@level}{0}
+}
